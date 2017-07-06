@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Регистрация</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+<h1>Введите данные</h1>
+<form id="f1" action="/register" method="post" name="registerForm">
+    <label>Имя</label></br>
+    <input type="text" name="userName" /></br></br>
+    <label>Возраст</label></br>
+    <input type="number" name="userAge" /></br></br>
+    <input type="submit" value="Отправить" />
+</form>
+<hr>
+<form id="f2" action="/result" method="post" name="resultNumber">
+    <label>Число</label></br>
+    <input type="number" name="numberWas" /></br></br>
+    <input type="submit" value="Обработать число" /></br></br>
+    <label>Результат</label></br>
+    <input id="numberIs" type="number" name="numberIs" /></br></br>
+</form>
+<hr>
+<p id="fileList"></p>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="index.js"></script>
+</body>
+<html>

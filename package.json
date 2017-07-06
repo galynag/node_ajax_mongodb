@@ -1,0 +1,38 @@
+{
+  "name": "node_ajax_mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galynag/node_ajax_mongodb.git"
+  },
+  "keywords": [
+    "node",
+    "ajax",
+    "express",
+    "mongodb"
+  ],
+  "author": "galina gavrina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galynag/node_ajax_mongodb/issues"
+  },
+  "homepage": "https://github.com/galynag/node_ajax_mongodb#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsdom": "^11.1.0",
+    "mongodb": "^2.2.29",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "jquery": "^3.2.1",
+    "nodemon": "^1.11.0"
+  }
+}

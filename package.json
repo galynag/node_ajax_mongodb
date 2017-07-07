@@ -25,7 +25,11 @@
   "homepage": "https://github.com/galynag/node_ajax_mongodb#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "connect-mongodb": "^1.1.5",
+    "connect-redis": "^3.3.0",
+    "cookie-sessions": "0.0.2",
     "express": "^4.15.3",
+    "express-session": "^1.15.3",
     "jsdom": "^11.1.0",
     "mongodb": "^2.2.29",
     "serve-favicon": "^2.4.3"

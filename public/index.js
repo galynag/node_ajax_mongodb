@@ -2,24 +2,24 @@
  * Created by Galina on 06.07.2017.
  */
 $(document).ready(function () {
-        $.ajax({
-            type: "POST",
-            url: "/files",
-            data: JSON.stringify({folder: './test4'}),
-            dataType: "json",
-            contentType: "files/json",
-            success: function(data){
-                console.log('data',data);
-                let files = [];
-                for (let i=0; i < data.length; i++){
-
-                        files.push(data[i]);
-
-                }
-
-                $('#numberIs').text('234q3245');
-            },
-        });
+        // $.ajax({
+        //     type: "POST",
+        //     url: "/files",
+        //     data: JSON.stringify({folder: './test4'}),
+        //     dataType: "json",
+        //     contentType: "files/json",
+        //     success: function(data){
+        //         console.log('data',data);
+        //         let files = [];
+        //         for (let i=0; i < data.length; i++){
+        //
+        //                 files.push(data[i]);
+        //
+        //         }
+        //
+        //         $('#numberIs').text('234q3245');
+        //     },
+        // });
 
 
     // fileList('./test4');
